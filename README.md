@@ -32,12 +32,17 @@ Basado en el proyecto original de [Matt-Fontes](https://github.com/Matt-Fontes/S
 ### Agregar una película nueva
 
 ```bash
+# Linux / macOS
 ./add_movie.sh <archivo.srt> "Nombre Pelicula"
+
+# Windows / multiplataforma
+python add_movie.py <archivo.srt> "Nombre Pelicula"
 ```
 
 **Ejemplo:**
 ```bash
 ./add_movie.sh shrek2.srt "Shrek 2"
+python add_movie.py shrek2.srt "Shrek 2"
 ```
 
 Esto genera automáticamente:
