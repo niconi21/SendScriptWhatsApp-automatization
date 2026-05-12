@@ -1,0 +1,9 @@
+srt/*
+!srt/.gitkeep
+scripts/*
+!scripts/.gitkeep
+output/*
+!output/.gitkeep
+PyWhatKit_DB.txt
+__pycache__/
+*.pyc
