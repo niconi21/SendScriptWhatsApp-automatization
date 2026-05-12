@@ -37,12 +37,15 @@ Basado en el proyecto original de [Matt-Fontes](https://github.com/Matt-Fontes/S
 
 # Windows / multiplataforma
 python add_movie.py <archivo.srt> "Nombre Pelicula"
+# o en Linux/macOS si tienes ambas versiones instaladas
+python3 add_movie.py <archivo.srt> "Nombre Pelicula"
 ```
 
 **Ejemplo:**
 ```bash
 ./add_movie.sh shrek2.srt "Shrek 2"
 python add_movie.py shrek2.srt "Shrek 2"
+python3 add_movie.py shrek2.srt "Shrek 2"
 ```
 
 Esto genera automáticamente:
